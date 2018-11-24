@@ -35,11 +35,52 @@
 }
 
 
+@media screen and (min-width : 1451px){ 
+    .container_characters{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        margin: 45px 130px;
+        grid-gap: 30px;
+        height: auto;
+    }
+
+    .character_card{
+        height: 530px;
+        font-size: 12px;
+        text-align: center;
+        background-size: cover;
+        border-radius: 10px;
+        border: 2px solid white;
+        background-position: center;
+    }
+
+    .button_img{
+        
+        width: 80px;
+        height: 80px;
+    }
+    
+    .content {
+        align-self: flex-end;
+        width: 100%;
+        background-color: #34414ad6;
+        color: white;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    
+    
+    .character_card h1 {
+        padding: 5px 0px;
+        align-self: flex-end;
+        font-size: 25px;
+    }
+
+}
 
 
 
-
-@media screen and (min-width : 1200px){ 
+@media screen and (max-width : 1450px){ 
 
     .container_characters{
         display: grid;

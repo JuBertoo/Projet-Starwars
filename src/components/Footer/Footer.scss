@@ -38,8 +38,19 @@
     }
 
     .Instagram, .Facebook, .Twitter {
-        margin-right: 20px;
-        transform:scale(1.5);
+        margin-right: 49px;
+        transform: scale(2);
+    }
+
+    .IconContact {
+        height: 50px;
+        transform: scale(1);
+        cursor: pointer;
+        margin-left: 4.5em;
+    }
+
+    .footer{
+        height: 4vw;
     }
 }
 

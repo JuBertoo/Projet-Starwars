@@ -344,45 +344,86 @@ a{
 //         font-size: 24px;
 //     }
 //     }
-@media screen and (min-width : 1200px){ 
+// @media screen and (min-width : 1200px){ 
+//     .content-section {
+//         margin-right: 0px;
+//     }
+//     .searchBar{
+//         margin-bottom: 20px;
+//         margin-right: 95px;
+//     }
+    
+//     #bb8{
+//         transform:scale(1.1); 
+//     }
+    
+//     .input-open {
+//         width: 255px;
+//         margin-top: 18px;
+//         margin-left: 10px;
+//         padding-left: 47px;
+//         font-size: 17px;
+//     }
+    
+//     .input-close {
+//         margin-top: 18px;
+//         margin-left: 10px;
+//         padding-left: 30px;
+//         font-size: 0px;
+//     }
+//     input{
+//         height:27px;
+//     }
+//     .suggestion {
+//         width: 185px;
+//         margin-left: 53px;
+//         font-size: 17px;
+//     }
+
+// } 
+@media screen and (min-width: 1451px) {
+    
     .content-section {
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .searchBar{
         margin-bottom: 20px;
-        margin-right: 95px;
+        margin-right: 10vw;
     }
     
     #bb8{
-        transform:scale(1.1); 
+        transform:scale(1.5); 
     }
     
     .input-open {
-        width: 255px;
+        height: 35px;
+        width: 280px;
         margin-top: 18px;
-        margin-left: 10px;
-        padding-left: 47px;
-        font-size: 17px;
+        margin-left: 20px;
+        font-size: 35px;
+        font-size: 21px;
     }
     
     .input-close {
         margin-top: 18px;
         margin-left: 10px;
-        padding-left: 30px;
-        font-size: 0px;
+        padding-left: 23px;
+        font-size: 16px;
     }
     input{
-        height:27px;
+        height:23px;
     }
     .suggestion {
-        width: 185px;
-        margin-left: 53px;
-        font-size: 17px;
+        width: 211px;
+        margin-left: 58px;
+        font-size: 20px;
     }
+}
 
-} 
 
-@media screen and (max-width: 1199px) {
+
+
+@media screen and (max-width: 1450px) {
     .content-section {
         margin-right: 50px;
     }

@@ -201,8 +201,54 @@ nav {
 	}
   }
 
+  @media screen and (min-width : 1451px){ 
+	.toggle-icon{
+		transform:scale(1.5); 
+		
+	}
+	
+	nav {
+	&.show {
+		transform:translatex(0%);
+		
+	}
+	top: 80px;
+	bottom: 0px;
+	width: 600px;
+    height: 55px;
+    margin-left: 50px;
+    margin-bottom: 6px;
+	align-content: center;
+	
+	ul li {
+		font-size: 1.4em;
+		line-height: 1.1em;
+		&:hover {
+			width:110%;
+			padding: 0px;
+			
+		}
+		a {
+			width:100%;
+			padding-left:7px;
+			margin:12px 0px;
+		}
+	}
+	
+	}
+	#nav-container{
+		margin-left: 8vw;	
+	}
+	
+	.menu {
+		
+		height: 200px;
+		}  
 
-@media screen and (min-width : 1200px){ 
+}
+
+
+@media screen and (max-width : 1450px){ 
 	.toggle-icon{
 		transform:scale(1); 
 		
