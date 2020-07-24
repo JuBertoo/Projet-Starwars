@@ -21,7 +21,7 @@ export default class Characters extends Component {
     
         fetchData = () => {
             if (this.state.page <= 9) {
-                fetch(`https://swapi.co/api/people/?page=${this.state.page}`)
+                fetch(`https://swapi.dev/api/people/?page=${this.state.page}`)
                     .then(response => response.json())
                     .then(data => {
                         this.setState({characters:[...this.state.characters,...data.results]})

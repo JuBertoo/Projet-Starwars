@@ -25,7 +25,7 @@ async getCharacter(searchValue) {
     // set state to save searchvalue
     this.setState({searchValue: searchValue})
     // run api call
-    let response = await fetch(`https://swapi.co/api/people/?search=${searchValue}`);
+    let response = await fetch(`https://swapi.dev/api/people/?search=${searchValue}`);
     // await for convert to json
     response = await response.json();
     // filter api results
